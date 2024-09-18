@@ -1,0 +1,6 @@
+@FP_L1_HostAddress = http://localhost:5031
+
+GET {{FP_L1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
