@@ -20,7 +20,11 @@ namespace FP_L1.Controllers
         {
             this.logger = logger;
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public ActionResult<ProductResponse> Get(int id)
         {
